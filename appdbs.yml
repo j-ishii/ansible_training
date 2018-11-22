@@ -1,0 +1,8 @@
+---
+# file: appdbs.yml
+- hosts: appdbs
+  become: yes
+  gather_facts: yes
+  roles:
+    - common
+    - geerlingguy.postgresql 

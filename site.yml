@@ -1,0 +1,5 @@
+---
+# file: site.yml
+- import_playbook: frontends.yml
+- import_playbook: apps.yml
+- import_playbook: appdbs.yml

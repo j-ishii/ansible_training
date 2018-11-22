@@ -1,0 +1,8 @@
+---
+# file: apps.yml
+- hosts: apps
+  become: yes
+  gather_facts: no
+  roles:
+    - common
+    - app
