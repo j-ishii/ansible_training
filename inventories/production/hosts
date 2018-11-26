@@ -20,13 +20,14 @@ appdbs
 
 [frontends]
 ## These are the frontends
-frontend1.88eb.internal
+frontend1 ansible_host=frontend1.88eb.internal
 
 [apps]
 ## These are the apps
-app[1:2].88eb.internal
+app1 ansible_host=app1.88eb.internal
+app2 ansible_host=app2.88eb.internal
 
 [appdbs]
 ## These are the appdbi(s)
-appdb1.88eb.internal
+appdb1 ansible_host=appdb1.88eb.internal
 
